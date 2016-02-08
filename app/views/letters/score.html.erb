@@ -1,0 +1,16 @@
+<!-- <h1>Letters#score</h1>
+<p>Find me in app/views/letters/score.html.erb</p> -->
+
+<container>
+  <row>
+    <div class="col-sm-12">
+    <h3>Result</h3>
+    <p>> Your word: <strong><%= @word %></strong></p>
+    <p>> Time Taken to answer: <strong><%= @time %>s</strong></p>
+    <p>> Translation = <strong><%= @translate %></strong></p>
+    <p>> Result = <strong><%= @result %></strong></p>
+
+      <%= link_to "Play again", game_path %>
+    </div>
+  </row>
+</container>
